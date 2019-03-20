@@ -1,0 +1,8 @@
+l=input().strip()
+final_dict={}
+for i in l:
+    if i in final_dict:
+        final_dict[i]+=1
+    else:
+        final_dict[i]=1
+print(final_dict)
